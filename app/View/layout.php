@@ -182,5 +182,13 @@ function HeadAuth()
     </head>';
 }
 
+function MostrarFooter() {
+    echo '<footer class="footer mt-auto py-3 bg-light">';
+    echo '<div class="container">';
+    echo '<span class="text-muted">© 2024 Biblioteca. Todos los derechos reservados.</span>';
+    echo '</div>';
+    echo '</footer>';
+}
+?>
 
 
