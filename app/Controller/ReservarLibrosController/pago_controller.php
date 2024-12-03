@@ -23,7 +23,7 @@
                     $temp_name = $_FILES['image']['tmp_name'];
                     $file_name = basename($_FILES['image']['name']);
                     $file_name = preg_replace('/[^a-zA-Z0-9_\-\.]/', '_', $file_name); 
-                    $upload_dir = $_SERVER['DOCUMENT_ROOT'] . '/RopayMedia/app/View/uploaded_img/sinpes/';
+                    $upload_dir = $_SERVER['DOCUMENT_ROOT'] . '/RopayMedia/app/View/uploaded_img/libros_img/';
                     $file_type = mime_content_type($temp_name);
                     $allowed_types = ['image/jpeg', 'image/png', 'image/gif'];
                     if (!is_dir($upload_dir)) {
